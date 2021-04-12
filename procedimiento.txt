@@ -1,0 +1,12 @@
+git init
+git add README.md (desde VSC)
+git commit -m "Commit inicial" (desde VSC)
+Creo repositorio remoto desde GitHub
+Obtengo URL desde GitHub: https://github.com/antoniamescia/Hola-Mundo.git
+git remote add https://github.com/antoniamescia/Hola-Mundo.git
+git pull origin main --allow-unrelated-histories
+git branch --set-upstream-to=origin/main main
+git add procedimiento.txt (desde VSC)
+git commit -m "Agrega archivo de texto con procedimiento" (desde VSC)
+
+

@@ -15,6 +15,15 @@ Borro el repositorio local
 git clone https://github.com/antoniamescia/Hola-Mundo.git
 git checkout -b dev
 Modifico README
+git add README.md
+git commit -m "Cambios en la nueva rama"
+git push origin dev
+git checkout main
+git merge dev
+git push
+Borro rama dev desde github.com
+git add procedimiento.txt (desde github.com)
+git commit -m "Cambios en procedimiento"
 
 
 
